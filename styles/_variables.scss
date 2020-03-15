@@ -1,0 +1,30 @@
+// font
+$primary-font: "Lato", sans-serif;
+$decorative-font: "Dancing Script", cursive;
+$primary-size: 10px;
+
+//color
+$dark-blue: rgb(18, 22, 58);
+$dark-grey: rgb(31, 31, 31);
+$footer: rgb(5, 6, 15);
+$basic-white:rgb(255, 255, 255);
+$orange:rgb(216, 110, 11);
+// $light-grey: rgb(85, 85, 85);
+// $grey: rgb(58, 58, 58);
+
+
+//hover
+$hover:rgb(255, 255, 255);
+
+//opacity
+$orange-opacity:rgba(216, 110, 11, 0.4);
+$bg-opacity: rgba(0, 7, 63, 0.8);
+$bg-opacity-medium: rgba(0, 0, 0, 0.25);
+$bg-opacity-light: rgba(0, 0, 0, 0.1);
+
+//shadows
+$shadow-color: rgb(0, 0, 0);
+$text-shadow: 0 0 4px $shadow-color;
+
+//screen view height
+$screen-height:90vh;

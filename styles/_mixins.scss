@@ -1,0 +1,56 @@
+
+// section styling
+@mixin section-bg-opacity {
+    background: $bg-opacity-medium;
+    height: auto;
+}
+
+@mixin section-bg-normal {
+    height: auto;
+}
+//section styling ends
+
+//heading styling
+@mixin secondary-heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 2rem 0;
+    color: $orange;
+    text-shadow: $text-shadow;
+}
+//heading styling ends
+
+//heading decoration
+@mixin heading-decoration {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+@mixin heading-decoration-before {
+  width: 40%;
+  height: 3px;
+  border-radius: 0.8rem;
+}
+@mixin heading-decoration-after {
+  background-color: rgba(216, 110, 11, 0.75);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+//heading decoration ends
+
+
+//icon styling
+@mixin icon-style {
+    color: $orange;
+    font-size: 5rem;
+    margin: auto;
+}
+//icon styling ends
+
